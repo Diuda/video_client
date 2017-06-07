@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="webrtc.js"></script>
+	<title>WebRTC Audio/Video</title>
+</head>
+
+<body>
+	<video id="remoteV" autoplay></video>
+	<video id="localV" autoplay muted></video>
+	<input id="VCall" type="button" disabled value="Video Call"/>
+	<input type="button" id="ECall" disabled value="End Call"/>
+	<script type="text/javascript">
+	window.addEventListener("load", Ready);
+	// console.log("hello");
+	</script>
+</body>
+</html>
